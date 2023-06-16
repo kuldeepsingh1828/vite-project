@@ -1,12 +1,14 @@
 import { Component } from "react";
 import Form from "./components/Form/Form";
+import ExampleUseEffect from "./components/hooks/ExampleUseEffect";
 import MyComponent from "./components/MyComponent";
 import MyStateFullComponent from "./components/MyStateFullComponent";
 
 export class App extends Component {
     render() {
         return <>
-            <Form />
+            <ExampleUseEffect />
+            {/* <Form /> */}
             {/* <MyStateFullComponent /> */}
             {/* <MyComponent type="password" id={"password"} labelText={"Enter Password"} />
             <MyComponent type="email" id={"email"} labelText={"Enter Email"} />
